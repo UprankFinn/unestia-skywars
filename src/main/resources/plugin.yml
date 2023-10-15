@@ -1,0 +1,12 @@
+name: SkyWars
+version: 1.0-SNAPSHOT
+author: Uprank
+main: net.unestia.skywars.SkyWars
+depend: [UnestiaCore]
+commands:
+  start:
+    permission: permission.skywars.command.start
+    description: to start the lobby countdown
+  forcemap:
+    permission: permission.skywars.command.forcemap
+    description: to forcemap a map for game server
